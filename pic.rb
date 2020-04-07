@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'chunky_png'
 png = ChunkyPNG::Image.new(200, 200, ChunkyPNG::Color::WHITE)
-png.save('file.png', :interlace => true)
+png.save('file.png', interlace: true)
